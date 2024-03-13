@@ -3,7 +3,6 @@
 }
 body {
     background-color: rgba(216, 216, 205, 0.778);
-    width: 100%;
     color: black;
     display: flex;
     flex-direction: column;
