@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/5568ffeb24.js" crossorigin="anonymous"></script>
-  <title>Konwerter Temperatury</title>
+  <script src="https://kit.fontawesome.com/5568ffeb24.js" crossorigin="anonymous"></script>
+  <title>Konwerter Temperatury`</title>
   <script>
     function convert() {
       // Pobierz wartość temperatury
       let temp = document.getElementById('temp').value;
-      
+
       // Pobierz jednostki
       let unit = document.getElementById('unit').value;
 
@@ -21,11 +22,11 @@
 
       if (unit === 'celsjusz') {
         // Konwersja z Celsjusza na Fahrenheita
-        result = (temp * 9/5) + 32;
+        result = (temp * 9 / 5) + 32;
         resultUnit = ' stopni Fahrenheita';
       } else if (unit === 'fahrenheita') {
         // Konwersja z Fahrenheita na Celsjusza
-        result = (temp - 32) * 5/9;
+        result = (temp - 32) * 5 / 9;
         resultUnit = ' stopni Celsjusza';
       }
 
@@ -34,22 +35,102 @@
     }
   </script>
 </head>
+
 <body>
- <div class="title"><h1>Konwerter Temperatury</h1><i class="fa fa-cloud fa-2x"></i>
-    </div>
+  <div class="title">
+    <h1>Konwerter Temperatury</h1><i class="fa fa-cloud fa-2x"></i>
+  </div>
 
   <label for="temp">Podaj temperaturę: </label><i class='fas fa-temperature-high'></i>
   <input type="number" id="temp" placeholder="np. 25" required>
-<div class="units">
-  <label for="unit">Wybierz jednostki:</label>
-  <select id="unit">
-    <option value="celsjusz">Celsjusza</option>
-    <option value="fahrenheita">Fahrenheita</option>
-  </select>
+  <div class="units">
+    <label for="unit">Wybierz jednostki:</label>
+    <select id="unit">
+      <option value="celsjusz">Celsjusza</option>
+      <option value="fahrenheita">Fahrenheita</option>
+    </select>
 
-  <button onclick="convert()">Konwertuj</button>
+    <button onclick="convert()">Konwertuj</button>
 
-  <p id="result"></p>
-</div>
+    <p id="result"></p>
+  </div>
+  <div class="temp-table">
+    <table>
+      <tr>
+        <th colspan="3">Tabela Temperatury</th>
+      </tr>
+      <tr>
+        <td class="row1" rowspan="2"><strong>Wzór:</strong></td>
+        <td class="row2"><strong>Celsjusz na fahrenheita:</strong></td>
+        <td class="row3"><strong>Fahrenheit na Celsjusza:</strong></td>
+      </tr>
+      <tr>
+        <td>(temperatura * 9/5) + 32</td>
+        <td>(temperatura - 32) * 5/9</td>
+      </tr>
+      <tr>
+        <td class="row4" colspan="2"><strong>Celsjusz</strong></td>
+        <td class="row5"><strong>Fahrenheit</strong></td>
+      </tr>
+      <tr>
+        <td colspan="2">0&deg;C.</td>
+        <td>32&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">5&nbsp;&deg;C.</td>
+        <td>41&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">10&nbsp;&deg;C.</td>
+        <td>50&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">15&nbsp;&deg;C.</td>
+        <td>59&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">20&nbsp;&deg;C.</td>
+        <td>68&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">25&nbsp;&deg;C.</td>
+        <td>77&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">30&nbsp;&deg;C.</td>
+        <td>86&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">35&nbsp;&deg;C.</td>
+        <td>95&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">40&nbsp;&deg;C.</td>
+        <td>104&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">45&nbsp;&deg;C.</td>
+        <td>113&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">50&nbsp;&deg;C.</td>
+        <td>122&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">55&nbsp;&deg;C.</td>
+        <td>131&deg;F</td>
+      </tr>
+      <tr>
+        <td colspan="2">60&nbsp;&deg;C.</td>
+        <td>140&deg;F</td>
+      </tr>
+      
+
+
+
+
+    </table>
+  </div>
 </body>
+
 </html>

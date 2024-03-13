@@ -2,10 +2,11 @@ body {
     background-color: rgba(216, 216, 205, 0.778);
     color: black;
     background-image: url('background-temp.jpg');
-    background-size: auto;
+    background-size: 100% ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 400px;
+    background-position: 450px;
+    
 
 }
 i {
@@ -22,4 +23,27 @@ i {
 }
 .fas {
     color: black;
+}
+th, td {
+    border: 1px solid #020000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+background-color: aquamarine;
+}
+.row1 {
+    background-color: rgb(163, 192, 182);
+}
+.row2 {
+    background-color: rgb(163, 192, 182);
+}
+.row3 {
+    background-color: rgb(163, 192, 182);
+}
+.row4 {
+    background-color: rgb(163, 192, 182);
+}
+.row5 {
+    background-color: rgb(163, 192, 182);
 }
