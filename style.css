@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     /* Styles for mobile screens */
 }
 body {
@@ -61,6 +61,6 @@ table {
     border-collapse: collapse;
 }
 input {
-    width: 100px;
+    width: 65px;
     height: 15px;
 }
