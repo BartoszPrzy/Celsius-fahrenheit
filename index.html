@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/5568ffeb24.js" crossorigin="anonymous"></script>
-  <title>Konwerter Temperatury`</title>
+  <title>Temperature Converter</title>
   <script>
     function convert() {
       // Pobierz wartość temperatury
@@ -38,19 +38,19 @@
 
 <body>
   <div class="title">
-    <h1>Konwerter Temperatury</h1>&nbsp;<i class="fa fa-cloud fa-2x"></i>
+    <h1>Temperature Converter</h1>&nbsp;<i class="fa fa-cloud fa-2x"></i>
   </div>
   <div class="converter">
-    <label for="temp">Podaj temperaturę:&nbsp;</label><i class='fas fa-temperature-high'>&nbsp;</i>
-    <input type="number" id="temp" placeholder="np. 25" required>
+    <label for="temp">Enter Temperature:&nbsp;</label><i class='fas fa-temperature-high'>&nbsp;</i>
+    <input type="number" id="temp" placeholder="Enter degrees" required>
     <div class="units">
-      <label for="unit">&nbsp;Wybierz jednostki:</label>
+      <label for="unit">&nbsp;select unit:</label>
       <select id="unit">
-        <option value="celsjusz">Celsjusza</option>
-        <option value="fahrenheita">Fahrenheita</option>
+        <option value="celsjusz">Celcius</option>
+        <option value="fahrenheita">Fahrenheit</option>
       </select>
 
-      <button onclick="convert()">Konwertuj</button>
+      <button onclick="convert()">Convert</button>
 
       <p id="result"></p>
     </div>
