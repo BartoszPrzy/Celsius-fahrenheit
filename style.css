@@ -1,25 +1,23 @@
 body {
     background-color: rgba(216, 216, 205, 0.778);
     color: black;
-    background-image: url('background-temp.jpg');
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 450px;
-    
-
+    display: flex;
+    flex-direction: column;
 }
 i {
-    color: gray;
+    color: rgb(155, 194, 208);
+    align-items: center;
+    
 }
-
 .title {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-
-.title i {
-    margin-left: 10px;
+.converter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 .fas {
     color: black;
@@ -46,4 +44,17 @@ background-color: aquamarine;
 }
 .row5 {
     background-color: rgb(163, 192, 182);
+}
+tr {
+    border: none;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-collapse: collapse;
+}
+input {
+    width: 100px;
+    height: 15px;
 }
