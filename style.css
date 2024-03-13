@@ -1,17 +1,20 @@
 @media only screen and (max-width: 600px) {
     /* Styles for mobile screens */
 }
+
 body {
     background-color: rgba(216, 216, 205, 0.778);
     color: black;
     display: flex;
     flex-direction: column;
 }
+
 i {
     color: rgb(155, 194, 208);
     align-items: center;
-    
+
 }
+
 .title {
     position: sticky;
     display: flex;
@@ -19,47 +22,61 @@ i {
     justify-content: center;
     align-items: center;
 }
+
 .converter {
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
 }
+
 .fas {
     color: black;
 }
-th, td {
+
+th,
+td {
     border: 1px solid #020000;
     padding: 8px;
     text-align: center;
 }
+
 th {
-background-color: aquamarine;
+    position: sticky;
+    background-color: aquamarine;
 }
+
 .row1 {
     background-color: rgb(163, 192, 182);
 }
+
 .row2 {
     background-color: rgb(163, 192, 182);
 }
+
 .row3 {
     background-color: rgb(163, 192, 182);
 }
+
 .row4 {
     background-color: rgb(163, 192, 182);
 }
+
 .row5 {
     background-color: rgb(163, 192, 182);
 }
+
 tr {
     border: none;
 }
+
 table {
     display: flex;
     justify-content: center;
     align-content: center;
     border-collapse: collapse;
 }
+
 input {
     width: 65px;
     height: 15px;
