@@ -15,11 +15,13 @@ i {
 }
 .title {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 .converter {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-content: center;
 }
