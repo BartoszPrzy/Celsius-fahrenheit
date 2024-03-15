@@ -3,23 +3,27 @@
 }
 
 body {
-    background-color: rgba(216, 216, 205, 0.778);
+    background-color: white;
+    margin: 0;
     color: black;
-    display: flex;
     flex-direction: column;
 }
 
 i {
-    color: rgb(155, 194, 208);
-    align-items: center;
-
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .title {
     display: flex;
+    margin: 0;
+    background-color: #c3c9ce;
     width: 100%;
     justify-content: center;
-    align-items: center;
+
+
 }
 
 .converter {
@@ -27,6 +31,7 @@ i {
     width: 100%;
     justify-content: center;
     align-content: center;
+    background-color: #c3c9ce;
 }
 
 .fas {
