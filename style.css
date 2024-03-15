@@ -43,31 +43,18 @@ td {
 th {
     position: sticky;
     top: 0px;
-    background-color: aquamarine;
+    background-color: rgb(230, 240, 187);
 }
-
-.row1 {
-    background-color: rgb(163, 192, 182);
-}
-
-.row2 {
-    background-color: rgb(163, 192, 182);
-}
-
-.row3 {
-    background-color: rgb(163, 192, 182);
-}
-
 .row4 {
     position: sticky;
     top: 34px;
-    background-color: rgb(163, 192, 182);
+    background-color: rgb(226, 231, 200);
 }
 
 .row5 {
     position: sticky;
     top: 34px;
-    background-color: rgb(163, 192, 182);
+    background-color: rgb(226, 231, 200);
 }
 
 tr {
@@ -75,14 +62,22 @@ tr {
 }
 
 table {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-content: center;
     border-collapse: collapse;
+    background: linear-gradient(to bottom, #378ee6, #2b88e4, #fb7272, #ff6666, #ff3333db);
+
 }
 
 input {
     width: 100px;
     height: 15px;
+}
+.temp-table {
+display: flex;
+justify-content: center;
+}
+.result-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }

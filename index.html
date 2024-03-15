@@ -10,28 +10,28 @@
   <title>Temperature Converter</title>
   <script>
     function convert() {
-      // Pobierz wartość temperatury
+      // Get the temperature input values
       let temp = document.getElementById('temp').value;
 
-      // Pobierz jednostki
+      // Get the unit input values
       let unit = document.getElementById('unit').value;
 
-      // Wykonaj konwersję
+      // Perform the conversion
       let result = 0;
       let resultUnit = "";
 
       if (unit === 'celsjusz') {
-        // Konwersja z Celsjusza na Fahrenheita
+        // Celsius - Fahrenheit convertion
         result = (temp * 9 / 5) + 32;
-        resultUnit = ' stopni Fahrenheita';
+        resultUnit = ' Fahrenheit';
       } else if (unit === 'fahrenheita') {
-        // Konwersja z Fahrenheita na Celsjusza
+        // Fahrenheit - Celsius convertion
         result = (temp - 32) * 5 / 9;
-        resultUnit = ' stopni Celsjusza';
+        resultUnit = ' Celsius';
       }
 
-      // Wyświetl wynik
-      document.getElementById('result').innerHTML = temp + ' stopni ' + document.getElementById('unit').options[document.getElementById('unit').selectedIndex].text + ' to ' + result.toFixed(2) + resultUnit + '.';
+      // result
+      document.getElementById('result').innerHTML = temp + ' degrees ' + document.getElementById('unit').options[document.getElementById('unit').selectedIndex].text + ' is ' + result.toFixed(2) + resultUnit + '.';
     }
   </script>
 </head>
@@ -49,30 +49,22 @@
         <option value="celsjusz">Celcius</option>
         <option value="fahrenheita">Fahrenheit</option>
       </select>
+    </div>
 
       <button onclick="convert()">Convert</button>
-
-      <p id="result"></p>
     </div>
-  </div>
+
+      <p class="result-text" id="result"></p>
   <!--convertion table -->
   <div class="temp-table">
     <table>
       <tr>
-        <th colspan="3">Tabela Temperatury</th>
+        <th colspan="3">Convertion table</th>
       </tr>
+      
       <tr>
-        <td class="row1" rowspan="2"><strong>Wzór:</strong></td>
-        <td class="row2"><strong>Celsjusz na fahrenheita:</strong></td>
-        <td class="row3"><strong>Fahrenheit na Celsjusza:</strong></td>
-      </tr>
-      <tr>
-        <td>(temperatura * 9/5) + 32</td>
-        <td>(temperatura - 32) * 5/9</td>
-      </tr>
-      <tr>
-        <td class="row4" colspan="2"><strong>Celsjusz</strong></td>
-        <td class="row5"><strong>Fahrenheit</strong></td>
+        <td class="row4" colspan="2"><strong>Celsius</strong><br>(Fahrenheit - 32) * 5/9</strong></td>
+        <td class="row5"><strong>Fahrenheit</strong> <br>(Celsius * 9/5) + 32</strong></td>
       </tr>
       <tr>
         <td colspan="2">-17.78&nbsp;&deg;C.</td>
