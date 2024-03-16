@@ -1,5 +1,22 @@
 @media only screen and (max-width: 600px) {
+
     /* Styles for mobile screens */
+    .converter {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .title {
+        display: flex;
+        margin: 0;
+        width: 100%;
+        
+       
+    }
+
 }
 
 body {
@@ -48,18 +65,19 @@ td {
 th {
     position: sticky;
     top: 0px;
-    background-color: rgb(230, 240, 187);
+    background-color: rgb(162, 170, 182);
 }
+
 .row4 {
     position: sticky;
     top: 34px;
-    background-color: rgb(226, 231, 200);
+    background-color: rgb(162, 170, 182);
 }
 
 .row5 {
     position: sticky;
     top: 34px;
-    background-color: rgb(226, 231, 200);
+    background-color: rgb(162, 170, 182);
 }
 
 tr {
@@ -76,10 +94,12 @@ input {
     width: 100px;
     height: 15px;
 }
+
 .temp-table {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .result-text {
     display: flex;
     flex-direction: column;
