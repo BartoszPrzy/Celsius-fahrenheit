@@ -3,9 +3,9 @@
 }
 
 body {
-    background-color: white;
+    background: linear-gradient(to right, #e7e5e5, #908f8e);
     margin: 0;
-    color: black;
+    color: #212121;
     flex-direction: column;
 }
 
@@ -19,7 +19,7 @@ i {
 .title {
     display: flex;
     margin: 0;
-    background-color: #c3c9ce;
+    background: linear-gradient(to right, #707170, #4c534e);
     width: 100%;
     justify-content: center;
 
@@ -31,16 +31,16 @@ i {
     width: 100%;
     justify-content: center;
     align-content: center;
-    background-color: #c3c9ce;
+    background: linear-gradient(to right, #707170, #4c534e);
 }
 
 .fas {
-    color: black;
+    color: #212121;
 }
 
 th,
 td {
-    border: 1px solid #020000;
+    border: 1px solid #3c3b3b8f;
     padding: 8px;
     text-align: center;
 }
@@ -68,8 +68,8 @@ tr {
 
 table {
     border-collapse: collapse;
-    background: linear-gradient(to bottom, #378ee6, #2b88e4, #fb7272, #ff6666, #ff3333db);
-
+    background: linear-gradient(to bottom, #137ae1, #3990e8, rgb(227, 182, 182), #ec8383, #f36a6a);
+    margin-bottom: 40px;
 }
 
 input {
