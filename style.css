@@ -20,7 +20,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #e7e5e5, #908f8e);
+    background: linear-gradient(to right, #fff5f5, #fff6ed);
     margin: 0;
     color: #212121;
     flex-direction: column;
@@ -36,7 +36,7 @@ i {
 .title {
     display: flex;
     margin: 0;
-    background: linear-gradient(to right, #707170, #4c534e);
+    background: linear-gradient(to right, #b7b8b7, #a6a6a6);
     width: 100%;
     justify-content: center;
 
@@ -48,7 +48,7 @@ i {
     width: 100%;
     justify-content: center;
     align-content: center;
-    background: linear-gradient(to right, #707170, #4c534e);
+    background: linear-gradient(to right, #b7b8b7, #a6a6a6);
 }
 
 .fas {
@@ -65,19 +65,19 @@ td {
 th {
     position: sticky;
     top: 0px;
-    background-color: rgb(162, 170, 182);
+    background-color: rgb(204, 204, 185);
 }
 
 .row4 {
     position: sticky;
     top: 34px;
-    background-color: rgb(162, 170, 182);
+    background-color: rgb(204, 204, 185);
 }
 
 .row5 {
     position: sticky;
     top: 34px;
-    background-color: rgb(162, 170, 182);
+    background-color: rgb(204, 204, 185);
 }
 
 tr {
