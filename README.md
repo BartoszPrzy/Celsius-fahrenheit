@@ -11,6 +11,4 @@ This is a simple web application that allows users to convert temperatures betwe
 * Convert Fahrenheit to Celsius
 * Convert Celsius to Fahrenheit
 ## Author
-@BartoszPrzy
-## License
-MIT
+[@BartoszPrzy](https://github.com/BartoszPrzy)
