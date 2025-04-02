@@ -1,4 +1,4 @@
-#Celsius to fahrenheit
+# Celsius to fahrenheit
 
 ## General information
 This is a simple web application that allows users to convert temperatures between Celsius and Fahrenheit.
